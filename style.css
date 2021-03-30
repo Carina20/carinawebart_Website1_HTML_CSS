@@ -1,0 +1,306 @@
+body {
+			font-family:Arial, Calibri;
+			position:relative;
+	}
+
+header {
+		background-color: #CABBB7;
+}
+h1 {
+	font-size: 16pt;
+	font-family:"Calibri Light";
+	float:left;
+	margin-left: 100px;
+	margin-top: 80px;
+}
+
+#CodeFactoryLogo {
+	position: absolute;
+	right: 20px;
+	top:40px;
+}
+
+#heading1_and_logo {
+	height:130px;
+}
+nav {
+		background-color: #C65252;
+		font-weight: bold;
+		font-size: 14pt;
+		text-align: right;
+	}
+
+ul {
+	list-style-type: none;
+	margin-right: 80px;
+	padding: 20px;
+}
+li {display: inline;
+	
+}
+li a {
+	padding: 10px;
+	text-decoration: none;
+}
+
+.navbarlinks {
+	color: #F0ECEC;
+}
+h2 {
+	font-size: 36pt;
+	text-align: center;
+}
+#img_phone {
+	text-align: center;
+}
+footer {
+	clear: both;
+	background-color: #CABBB7;
+	text-align: center;
+}
+
+h3 {
+	font-size: 10pt;
+	text-align: center;
+	padding-bottom:20px;
+}
+figcaption {
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+#figuredebitcard {
+	width: 40%;
+	float: left;
+	margin-right:0px;
+	margin-left:100px;
+}
+#figurescooter {
+	width: 40%;
+	float: right;
+	margin-left:0px;
+	margin-right:100px;
+}
+#Debit_card {
+	float: right;
+}
+#Scooter {
+	float: left;
+}
+#debitcaption {
+	float: right;
+	padding:none;
+}
+#scootercaption {
+	float: left;
+}
+#CodeFactoryLogo2 {
+	padding-top:20px;
+}
+
+#Help {
+	color:transparent;
+}
+
+#Back {
+	color: #F0ECEC;
+}
+
+@media screen and (max-device-width: 450px) {
+
+	#heading1_and_logo {
+		height:160px;
+	}
+
+	h1 {
+		font-size:32px;
+	}
+
+	nav {
+		height:100px;
+		font-size:20pt;
+		text-align: right;
+	}
+
+	ul {
+		padding-right:35px;
+	}
+
+	#Back {
+		padding-right:10px;
+		padding-left:10px;
+	}
+
+	#figureSamsung img {
+		width:95%;
+		height:270px;
+	}
+
+	#figuredebitcard img {
+		width:95%;
+		height:260px;
+	}
+
+	#figurescooter img {
+		width:95%;
+		height:260px;
+	}
+
+	figcaption {
+		font-size:20pt;
+	}
+
+	#CodeFactoryLogo {	
+		right: 65px;	
+}
+	footer {
+		height:200px;
+	}
+
+	footer img {
+		width:200px;
+		height:75px;
+	}
+
+	h3 {
+		font-size:16pt;
+	}
+
+
+}
+
+@media screen and (min-device-width:451px) and (max-device-width: 700px) {
+
+   	#Back {
+   		margin-right:30%;
+	}
+	
+	header {
+		margin-bottom:100px;
+	}
+
+	#heading1_and_logo {
+	height:160px;
+}
+	
+	h1 {
+		margin-top:130px;
+		font-size:20pt;
+	}
+
+	#scootercaption {
+		margin-bottom:100px;
+	}
+	
+	#debitcaption {
+		margin-bottom:100px;
+	}
+	
+	#SamsungCaption {
+		margin-bottom:100px;
+	}
+
+	footer {
+		height:200px;
+	}
+
+	footer img {
+		width:200px;
+		height:75px;
+	}
+
+	h3 {
+		font-size:16pt;
+	}
+
+}
+
+@media screen and (min-width:451px) and (max-width: 700px) {
+
+	#Back {
+   		margin-right:30%;
+	}
+	
+	header {
+		margin-bottom:100px;
+	}
+
+	#heading1_and_logo {
+	height:160px;
+}
+	
+	h1 {
+		margin-top:130px;
+		font-size:20pt;
+	}
+
+	#scootercaption {
+		margin-bottom:100px;
+	}
+	
+	#debitcaption {
+		margin-bottom:100px;
+	}
+	
+	#SamsungCaption {
+		margin-bottom:100px;
+	}
+
+	footer {
+		height:200px;
+	}
+
+	footer img {
+		width:200px;
+		height:75px;
+	}
+
+	h3 {
+		font-size:16pt;
+	}
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+	#Back {
+		margin-right:30%;
+	}
+	header {
+		margin-bottom:100px;
+	}
+	#scootercaption {
+		margin-bottom:100px;
+	}
+	#debitcaption {
+		margin-bottom:100px;
+	}
+	#SamsungCaption {
+		margin-bottom:100px;
+	}
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+	#Back {
+		margin-right:35%;
+	}
+	}
+
+@media screen and (min-width: 1201px) {
+	#Back {
+		margin-right:45%;
+	}
+	}
+
+@media screen and (min-width: 1435px) {
+
+	#figuredebitcard {
+		width:20%;
+	}
+
+	#figurescooter {
+		width:20%;
+	}
+}
+
+
